@@ -24,22 +24,20 @@ import { RouterModule } from '@angular/router';
 
 
 @Component({
-  standalone: true,
-  selector: 'app-heroes', //El selector se refiere a los elementos CSS para el componente
-  templateUrl: './heroes.component.html', //el templateUrls es la ubicación del archivo plantilla para el componente
-  styleUrls: ['./heroes.component.css'], //el styleUrls es la ubicación de los estilos CSS privados del componente.
-  imports: [
-    FormsModule,
-    //aca exportamos el if y el for que son las funciones del
-    //angular
-    NgIf,
-    NgFor,
-    UpperCasePipe,
-
-    //aca hay que exportar las exportaciones si el nuevo proyecto tiene stanalone
-    HeroDetailComponent,
-    RouterModule,
-  ],
+    selector: 'app-heroes', //El selector se refiere a los elementos CSS para el componente
+    templateUrl: './heroes.component.html', //el templateUrls es la ubicación del archivo plantilla para el componente
+    styleUrls: ['./heroes.component.css'], //el styleUrls es la ubicación de los estilos CSS privados del componente.
+    imports: [
+        FormsModule,
+        //aca exportamos el if y el for que son las funciones del
+        //angular
+        NgIf,
+        NgFor,
+        UpperCasePipe,
+        //aca hay que exportar las exportaciones si el nuevo proyecto tiene stanalone
+        HeroDetailComponent,
+        RouterModule,
+    ]
 })
 
 

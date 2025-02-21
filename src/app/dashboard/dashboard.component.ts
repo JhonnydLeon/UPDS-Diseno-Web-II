@@ -7,12 +7,13 @@ import { HeroService } from '../hero.service';
 
 // Decorador Component para definir el componente DashboardComponent
 @Component({
-  // Selector CSS para este componente
-  selector: 'app-dashboard',
-  // Ruta al archivo de plantilla HTML para este componente
-  templateUrl: './dashboard.component.html',
-  // Rutas a los archivos de estilos CSS para este componente
-  styleUrls: [ './dashboard.component.css' ]
+    // Selector CSS para este componente
+    selector: 'app-dashboard',
+    // Ruta al archivo de plantilla HTML para este componente
+    templateUrl: './dashboard.component.html',
+    // Rutas a los archivos de estilos CSS para este componente
+    styleUrls: ['./dashboard.component.css'],
+    standalone: false
 })
 // Clase del componente DashboardComponent que implementa la interfaz OnInit
 export class DashboardComponent implements OnInit {

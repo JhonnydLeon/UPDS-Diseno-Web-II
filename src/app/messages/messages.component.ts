@@ -5,12 +5,13 @@ import { MessageService } from '../message.service';
 
 // Decorador Component para definir el componente MessagesComponent
 @Component({
-  // Selector CSS para este componente
-  selector: 'app-messages',
-  // Ruta al archivo de plantilla HTML para este componente
-  templateUrl: './messages.component.html',
-  // Rutas a los archivos de estilos CSS para este componente
-  styleUrls: ['./messages.component.css']
+    // Selector CSS para este componente
+    selector: 'app-messages',
+    // Ruta al archivo de plantilla HTML para este componente
+    templateUrl: './messages.component.html',
+    // Rutas a los archivos de estilos CSS para este componente
+    styleUrls: ['./messages.component.css'],
+    standalone: false
 })
 // Clase del componente MessagesComponent
 export class MessagesComponent {

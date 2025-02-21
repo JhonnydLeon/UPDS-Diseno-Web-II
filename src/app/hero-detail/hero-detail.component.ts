@@ -35,16 +35,14 @@ import { Location } from '@angular/common';
 
 // Decorador @Component para definir un componente en Angular
 @Component({
-  // Indica que este componente es independiente y no tiene dependencias externas
-  standalone: true,
-  // Selector CSS para este componente
-  selector: 'app-hero-detail',
-  // Ruta al archivo de plantilla HTML para este componente
-  templateUrl: './hero-detail.component.html',
-  // Rutas a los archivos de estilos CSS para este componente
-  styleUrls: ['./hero-detail.component.css'],
-  // Importa módulos necesarios para este componente
-  imports: [FormsModule, NgIf, UpperCasePipe],
+    // Selector CSS para este componente
+    selector: 'app-hero-detail',
+    // Ruta al archivo de plantilla HTML para este componente
+    templateUrl: './hero-detail.component.html',
+    // Rutas a los archivos de estilos CSS para este componente
+    styleUrls: ['./hero-detail.component.css'],
+    // Importa módulos necesarios para este componente
+    imports: [FormsModule, NgIf, UpperCasePipe]
 })
 
 
