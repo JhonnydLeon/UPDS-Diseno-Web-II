@@ -14,7 +14,7 @@ import { MessageService } from '../message.service';
 import {
   /* . . . */
   NgFor,
-  NgIf,
+  //NgIf,
   UpperCasePipe,
   /* . . . */
 } from '@angular/common';
@@ -31,11 +31,11 @@ import { RouterModule } from '@angular/router';
         FormsModule,
         //aca exportamos el if y el for que son las funciones del
         //angular
-        NgIf,
+        //NgIf,
         NgFor,
-        UpperCasePipe,
+        //UpperCasePipe,
         //aca hay que exportar las exportaciones si el nuevo proyecto tiene stanalone
-        HeroDetailComponent,
+        //HeroDetailComponent,
         RouterModule,
     ]
 })
