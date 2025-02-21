@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "jhonny:build:production"
+              "buildTarget": "jhonny:build:production"
             },
             "development": {
-              "browserTarget": "jhonny:build:development"
+              "buildTarget": "jhonny:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "jhonny:build"
+            "buildTarget": "jhonny:build"
           }
         },
         "test": {
